@@ -1,0 +1,34 @@
+{
+  "name": "react-hover-animation",
+  "version": "1.2.1",
+  "description": "A react wrapper component that detects hover and adds animation from the awesome react-spring.Works both on the web and mobile touch events.",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "start": "rollup -c -w"
+  },
+  "author": "lulu70",
+  "repository": "lulu70/react-hover-animation",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.34",
+    "@types/react-dom": "^16.9.6",
+    "babel-core": "^6.26.3",
+    "babel-runtime": "^6.26.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "rollup": "^2.6.0",
+    "rollup-plugin-typescript2": "^0.27.0",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "react-spring": "^8.0.27"
+  }
+}
