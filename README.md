@@ -161,5 +161,3 @@ export default WithHook
 MIT © [lulu70](https://github.com/lulu70)
 
 ---
-
-Created using [create-react-hook](https://github.com/hermanya/create-react-hook).
