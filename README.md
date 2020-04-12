@@ -5,9 +5,9 @@
 
 [![NPM](https://img.shields.io/npm/v/react-hover-animation.svg)](https://www.npmjs.com/package/react-hover-animation) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-## Example:
+<!-- ## Example:
 
-[https://lulu70.github.io/react-hover-animation/](https://lulu70.github.io/react-hover-animation/)
+[https://lulu70.github.io/react-hover-animation/](https://lulu70.github.io/react-hover-animation/) -->
 
 ## Install
 
