@@ -2,7 +2,6 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 var React = require('react');
 var reactSpring = require('react-spring');
-var PropTypes = require('prop-types');
 
 /*! *****************************************************************************
 Copyright (c) Microsoft Corporation. All rights reserved.
@@ -42,66 +41,52 @@ function __rest(s, e) {
     return t;
 }
 
-var useHover = function (_a) {
-    var _b = _a === void 0 ? {} : _a, minimumScale = _b.minimumScale, minimumOpacity = _b.minimumOpacity, colors = _b.colors, backgroundColors = _b.backgroundColors;
-    var _c = React.useState(false), hover = _c[0], setHover = _c[1];
-    var hasTwoColors = colors && colors.color && colors.hoverColor && true;
-    var hasTwoBGColors = backgroundColors &&
-        backgroundColors.color &&
-        backgroundColors.hoverColor &&
-        true;
-    var minScale = minimumScale ? minimumScale : 0.95;
-    var minOpacity = minimumOpacity ? minimumOpacity : 0.6;
-    var springInitialProps = {
-        transform: "scale(1)",
-        opacity: '1',
-        color: colors && hasTwoColors ? colors.color : '',
-        backgroundColor: backgroundColors && hasTwoBGColors ? backgroundColors.color : '',
-    };
-    var _d = reactSpring.useSpring(function () { return springInitialProps; }), spring = _d[0], setSpring = _d[1];
-    setSpring({
-        transform: "scale(" + (hover ? minScale : '1') + ")",
-        opacity: hover ? "" + minOpacity : '1',
-        color: colors && hasTwoColors ? (hover ? colors.hoverColor : colors.color) : '',
-        backgroundColor: backgroundColors && hasTwoBGColors
-            ? hover
-                ? backgroundColors.hoverColor
-                : backgroundColors.color
-            : '',
-    });
+var useHover = function (props) {
+    if (props === void 0) { props = {}; }
+    var _a = React.useState(false), hover = _a[0], setHover = _a[1];
+    var initialProps = Object.entries(props).reduce(function (acc, entry) {
+        var _a;
+        var key = entry[0];
+        var value = entry[1];
+        var hasTwoValues = (value === null || value === void 0 ? void 0 : value.initial) && (value === null || value === void 0 ? void 0 : value.onHover) && true;
+        if (!hasTwoValues)
+            return acc;
+        return __assign(__assign({}, acc), (_a = {}, _a[key] = value === null || value === void 0 ? void 0 : value.initial, _a));
+    }, { transform: 'scale(1)', opacity: '1' });
+    var _b = reactSpring.useSpring(function () { return initialProps; }), spring = _b[0], setSpring = _b[1];
+    var onHoverProps = Object.entries(props).reduce(function (acc, entry) {
+        var _a;
+        var key = entry[0];
+        var value = entry[1];
+        var hasTwoValues = (value === null || value === void 0 ? void 0 : value.initial) && (value === null || value === void 0 ? void 0 : value.onHover) && true;
+        if (!hasTwoValues)
+            return acc;
+        return __assign(__assign({}, acc), (_a = {}, _a[key] = hover ? value === null || value === void 0 ? void 0 : value.onHover : value === null || value === void 0 ? void 0 : value.initial, _a));
+    }, {});
+    setSpring(__assign({ transform: "scale(" + (hover ? '0.95' : '1') + ")", opacity: hover ? '0.6' : '1' }, onHoverProps));
     return {
-        setHover: setHover,
         spring: spring,
         animated: reactSpring.animated,
+        setHover: setHover,
     };
 };
 
 var AnimationWrapper = function (_a) {
-    var colors = _a.colors, backgroundColors = _a.backgroundColors, minimumScale = _a.minimumScale, minimumOpacity = _a.minimumOpacity, style = _a.style, props = __rest(_a, ["colors", "backgroundColors", "minimumScale", "minimumOpacity", "style"]);
-    var _b = useHover({
-        minimumScale: minimumScale,
-        colors: colors,
-        backgroundColors: backgroundColors,
-        minimumOpacity: minimumOpacity,
-    }), animated = _b.animated, setHover = _b.setHover, spring = _b.spring;
-    return (React.createElement(animated.div, __assign({}, props, { style: __assign(__assign({ display: 'inline-block' }, spring), style), onPointerOver: function () {
+    var children = _a.children, config = _a.config, style = _a.style, reset = _a.reset, props = __rest(_a, ["children", "config", "style", "reset"]);
+    var hookConfig = reset
+        ? __assign({ opacity: {
+                initial: '1',
+                onHover: '1',
+            }, transform: {
+                initial: 'scale(1)',
+                onHover: 'scale(1)',
+            } }, config) : config;
+    var _b = useHover(hookConfig), animated = _b.animated, setHover = _b.setHover, spring = _b.spring;
+    return (React.createElement(animated.div, __assign({}, props, { style: __assign(__assign({}, spring), style), onPointerOver: function () {
             setHover(true);
         }, onPointerOut: function () {
             setHover(false);
-        } })));
-};
-AnimationWrapper.propTypes = {
-    colors: PropTypes.shape({
-        color: PropTypes.string.isRequired,
-        hoverColor: PropTypes.string.isRequired,
-    }),
-    backgroundColors: PropTypes.shape({
-        color: PropTypes.string.isRequired,
-        hoverColor: PropTypes.string.isRequired,
-    }),
-    minimumScale: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-    minimumOpacity: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-    style: PropTypes.object,
+        } }), children));
 };
 
 exports.AnimationWrapper = AnimationWrapper;

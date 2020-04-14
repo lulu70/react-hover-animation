@@ -1,50 +1,44 @@
 import * as React from 'react'
-import useHover, { Props } from './useHover'
-import * as PropTypes from 'prop-types'
+import useHover from './useHover'
 
-interface WrapperProps extends Props {
-  style?: React.CSSProperties | undefined
-}
-const AnimationWrapper: React.FC<WrapperProps> = ({
-  colors,
-  backgroundColors,
-  minimumScale,
-  minimumOpacity,
-  style,
-  ...props
-}) => {
-  const { animated, setHover, spring } = useHover({
-    minimumScale,
-    colors,
-    backgroundColors,
-    minimumOpacity,
-  })
+const AnimationWrapper: React.FC<{
+  reset: boolean
+  style: React.CSSProperties | undefined
+  config: {
+    [key in keyof React.CSSProperties]: {
+      initial: string
+      onHover: string
+    }
+  }
+}> = ({ children, config, style, reset, ...props }) => {
+  const hookConfig = reset
+    ? {
+        opacity: {
+          initial: '1',
+          onHover: '1',
+        },
+        transform: {
+          initial: 'scale(1)',
+          onHover: 'scale(1)',
+        },
+        ...config,
+      }
+    : config
+  const { animated, setHover, spring } = useHover(hookConfig)
   return (
     <animated.div
       {...props}
-      style={{ display: 'inline-block', ...spring, ...style }}
+      style={{ ...spring, ...style }}
       onPointerOver={() => {
         setHover(true)
       }}
       onPointerOut={() => {
         setHover(false)
       }}
-    />
+    >
+      {children}
+    </animated.div>
   )
-}
-
-AnimationWrapper.propTypes = {
-  colors: PropTypes.shape({
-    color: PropTypes.string.isRequired,
-    hoverColor: PropTypes.string.isRequired,
-  }),
-  backgroundColors: PropTypes.shape({
-    color: PropTypes.string.isRequired,
-    hoverColor: PropTypes.string.isRequired,
-  }),
-  minimumScale: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-  minimumOpacity: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-  style: PropTypes.object,
 }
 
 export default AnimationWrapper

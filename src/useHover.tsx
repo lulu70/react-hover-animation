@@ -1,60 +1,49 @@
 import * as React from 'react'
 import { useSpring, animated } from 'react-spring'
 
-export interface Props {
-  minimumScale?: number | string
-  minimumOpacity?: number | string
-  colors?: {
-    color: string
-    hoverColor: string
-  }
-  backgroundColors?: {
-    color: string
-    hoverColor: string
-  }
-}
-
-const useHover = ({
-  minimumScale,
-  minimumOpacity,
-  colors,
-  backgroundColors,
-}: Props = {}) => {
+const useHover = (
+  props: {
+    [key in keyof React.CSSProperties]: {
+      initial: string
+      onHover: string
+    }
+  } = {}
+) => {
   const [hover, setHover] = React.useState(false)
+  const initialProps = Object.entries(props).reduce(
+    (acc, entry) => {
+      const key = entry[0]
+      const value = entry[1]
+      const hasTwoValues = value?.initial && value?.onHover && true
+      if (!hasTwoValues) return acc
+      return {
+        ...acc,
+        [key]: value?.initial,
+      }
+    },
+    { transform: 'scale(1)', opacity: '1' }
+  )
 
-  const hasTwoColors = colors && colors.color && colors.hoverColor && true
-  const hasTwoBGColors =
-    backgroundColors &&
-    backgroundColors.color &&
-    backgroundColors.hoverColor &&
-    true
-  const minScale = minimumScale ? minimumScale : 0.95
-  const minOpacity = minimumOpacity ? minimumOpacity : 0.6
-
-  const springInitialProps = {
-    transform: `scale(1)`,
-    opacity: '1',
-    color: colors && hasTwoColors ? colors.color : '',
-    backgroundColor:
-      backgroundColors && hasTwoBGColors ? backgroundColors.color : '',
-  }
-  const [spring, setSpring] = useSpring(() => springInitialProps)
+  const [spring, setSpring] = useSpring(() => initialProps)
+  const onHoverProps = Object.entries(props).reduce((acc, entry) => {
+    const key = entry[0]
+    const value = entry[1]
+    const hasTwoValues = value?.initial && value?.onHover && true
+    if (!hasTwoValues) return acc
+    return {
+      ...acc,
+      [key]: hover ? value?.onHover : value?.initial,
+    }
+  }, {})
   setSpring({
-    transform: `scale(${hover ? minScale : '1'})`,
-    opacity: hover ? `${minOpacity}` : '1',
-    color:
-      colors && hasTwoColors ? (hover ? colors.hoverColor : colors.color) : '',
-    backgroundColor:
-      backgroundColors && hasTwoBGColors
-        ? hover
-          ? backgroundColors.hoverColor
-          : backgroundColors.color
-        : '',
+    transform: `scale(${hover ? '0.95' : '1'})`,
+    opacity: hover ? '0.6' : '1',
+    ...onHoverProps,
   })
   return {
-    setHover,
     spring,
     animated,
+    setHover,
   }
 }
 
