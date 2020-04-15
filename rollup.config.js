@@ -12,6 +12,12 @@ export default {
       sourcemap: true,
       strict: false,
     },
+    {
+      file: pkg.module,
+      format: 'es',
+      exports: 'named',
+      sourcemap: true,
+    },
   ],
   plugins: [typescript()],
   external: ['react', 'react-dom'],
