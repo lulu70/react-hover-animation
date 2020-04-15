@@ -2,15 +2,16 @@ import * as React from 'react'
 import useHover from './useHover'
 
 const AnimationWrapper: React.FC<{
-  reset: boolean
-  style: React.CSSProperties | undefined
-  config: {
-    [key in keyof React.CSSProperties]: {
-      initial: string
-      onHover: string
+  reset?: boolean
+  style?: React.CSSProperties | undefined
+  config?: {
+    [key in keyof React.CSSProperties]?: {
+      initial: any
+      onHover: any
     }
   }
-}> = ({ children, config, style, reset, ...props }) => {
+  [x: string]: any
+}> = ({ children, config, style, reset, ...rest }) => {
   const hookConfig = reset
     ? {
         opacity: {
@@ -27,7 +28,7 @@ const AnimationWrapper: React.FC<{
   const { animated, setHover, spring } = useHover(hookConfig)
   return (
     <animated.div
-      {...props}
+      {...rest}
       style={{ ...spring, ...style }}
       onPointerOver={() => {
         setHover(true)

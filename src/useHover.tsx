@@ -3,9 +3,9 @@ import { useSpring, animated } from 'react-spring'
 
 const useHover = (
   props: {
-    [key in keyof React.CSSProperties]: {
-      initial: string
-      onHover: string
+    [key in keyof React.CSSProperties]?: {
+      initial: any
+      onHover: any
     }
   } = {}
 ) => {

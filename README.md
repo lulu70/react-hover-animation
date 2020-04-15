@@ -1,6 +1,6 @@
 # react-hover-animation
 
-> A react wrapper component that detects hover and adds animation from the awesome [react-spring](https://www.react-spring.io/).
+> A react wrapper component that detects hover and adds animation from the awesome [react-spring](https://www.react-spring.io/).<br/>
 > Works both on the web and mobile touch events.
 
 [![NPM](https://img.shields.io/npm/v/react-hover-animation.svg)](https://www.npmjs.com/package/react-hover-animation) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
@@ -25,35 +25,28 @@ import { AnimationWrapper } from 'react-hover-animation'
 
 const App = () => {
   return (
-    <div>
-      <AnimationWrapper>
-        <h1>I animate on hover</h1>
-      </AnimationWrapper>
-    </div>
+    <AnimationWrapper>
+      <h1>I animate on hover</h1>
+    </AnimationWrapper>
   )
 }
 export default App
 ```
 
+### Default behavior
+
+The wrapper component comes with a build in behavior on hover,
+animation will play and change the element opacity from _1_ to _0.6_ and change the element scale from _1_ to _0.95_.<br>
+In order to change the default behavior you can either pass the [reset](#reset) prop to reset these defaults or pass a [config](#config) object with styles for _initial_ and _onHover_ state.
+
 ### Optional props
 
-| Name               | Type   | Default |
-| ------------------ | ------ | ------- |
-| `style`            | object | none    |
-| `minimumOpacity`   | number | 0.6     |
-| `minimumScale`     | number | 0.95    |
-| `colors`           | object | none    |
-| `backgroundColors` | object | none    |
-
-- `style`: Style object for the wrapper component - _styles will overrides the hover styles_.
-- `minimumOpacity`: The minimum opacity of the wrapper component on hover animation - _set to 1 for no opacity change_.
-- `minimumScale`: The minimum scale of the wrapper component on hover animation - _set to 1 for no scale change_.
-- `colors`: The hover and normal font colors **must provide two values**.
-  - `hoverColor`: The hover font color.
-  - `color`: The normal font color.
-- `backgroundColors`: The hover and normal backgroundColors **must provide two values**.
-  - `hoverColor`: The hover background color.
-  - `color`: The normal background color.
+- `style`: A style object for the wrapper component - **styles will override the hover styles on config object**.
+- <span id="config">`config`</span>: A config object to declare more styles to change on hover or overrides the [default behavior](#default-behavior),<br>
+  **must provide to each css property two values of the same type(initial and onHover)**.
+  - `initial`: The initial style.
+  - `onHover`: The style on hover.
+- <span id="reset">`reset`</span>: A boolean that will reset the [default behavior](#default-behavior).
 
 ### Usage with props
 
@@ -63,41 +56,36 @@ import { AnimationWrapper } from 'react-hover-animation'
 
 const App = () => {
   return (
-    <div
+    <AnimationWrapper
+      /* 
+      normal react attributes like "className" are allowed 
+      */
+      className='animation-wrapper'
+      /* 
+      styles will override the hover styles 
+      */
       style={{
-        height: '100vh',
-        backgroundColor: 'grey',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
+        textAlign: 'center',
+        borderRadius: '5px',
+        padding: '5px',
+        backgroundColor: 'lightblue',
       }}
+      /* 
+      must provide to each css property two values of the same type (initial and onHover)  
+      */
+      config={{
+        color: {
+          initial: 'black',
+          onHover: 'red',
+        },
+      }}
+      /* 
+      resets the default behavior  
+      */
+      reset={true}
     >
-      <AnimationWrapper
-        className='animation-wrapper'
-        // styles will overrides the hover styles
-        style={{
-          textAlign: 'center',
-          borderRadius: '5px',
-          padding: '5px',
-        }}
-        // set to 1 for no opacity change
-        minimumOpacity={0.6}
-        // set to 1 for no scale change
-        minimumScale={0.95}
-        // must provide two values
-        colors={{
-          color: 'black',
-          hoverColor: 'white',
-        }}
-        // must provide two values
-        backgroundColors={{
-          color: 'white',
-          hoverColor: 'black',
-        }}
-      >
-        <h1>I animate on hover</h1>
-      </AnimationWrapper>
-    </div>
+      <h1>I animate on hover</h1>
+    </AnimationWrapper>
   )
 }
 export default App
@@ -105,55 +93,52 @@ export default App
 
 ### The useHover hook
 
-If you don't want to render a wrapper div you can also import a custom hook and apply the animation directly on the element.
-same props can be passed as an object to the hook.
+If you don't want to render a wrapper div you can also import a custom hook and apply the animation directly on the element.<br>
+Optional [config](#config) object can be passed as an argument to the hook.
 
 ```jsx
 import React from 'react'
 import { useHover } from 'react-hover-animation'
 
-const WithHook = () => {
-  const { spring, animated, setHover } = useHover({
-    // optional props
-    minimumOpacity: 0.6,
-    minimumScale: 0.95,
-    colors: {
-      color: 'black',
-      hoverColor: 'white',
-    },
-    backgroundColors: {
-      color: 'white',
-      hoverColor: 'black',
-    },
-  })
+const App = () => {
+  /* 
+    first call the hook
+  */
+  const { spring, animated, setHover } = useHover(
+    /* 
+    optional styles...
+    */
+    {
+      color: {
+        initial: 'black',
+        onHover: 'red',
+      },
+    }
+  )
   return (
-    <div
-      style={{
-        height: '100vh',
-        backgroundColor: 'grey',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
+    /* 
+    add 'animated' to the element
+    */
+    <animated.h1
+      /* 
+      add spring to the style object
+      */
+      style={spring}
+      /* 
+     add these two event handlers
+     */
+      onPointerOver={() => {
+        setHover(true)
+      }}
+      onPointerOut={() => {
+        setHover(false)
       }}
     >
-      {/* add  (animated) to the element */}
-      <animated.h1
-        // add spring to the style object
-        style={spring}
-        // add these two event handlers
-        onPointerOver={() => {
-          setHover(true)
-        }}
-        onPointerOut={() => {
-          setHover(false)
-        }}
-      >
-        I animate on hover
-      </animated.h1>
-    </div>
+      I animate on hover
+    </animated.h1>
   )
 }
-export default WithHook
+export default App
 ```
 
 ## License

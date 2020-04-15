@@ -1,3064 +1,3064 @@
 import * as React from 'react';
 declare const useHover: (props?: {
     alignContent?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     alignItems?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     alignSelf?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     animationDelay?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     animationDirection?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     animationDuration?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     animationFillMode?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     animationIterationCount?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     animationName?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     animationPlayState?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     animationTimingFunction?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     appearance?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     aspectRatio?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     backdropFilter?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     backfaceVisibility?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     backgroundAttachment?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     backgroundBlendMode?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     backgroundClip?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     backgroundColor?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     backgroundImage?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     backgroundOrigin?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     backgroundPosition?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     backgroundPositionX?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     backgroundPositionY?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     backgroundRepeat?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     backgroundSize?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     blockOverflow?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     blockSize?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderBlockColor?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderBlockEndColor?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderBlockEndStyle?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderBlockEndWidth?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderBlockStartColor?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderBlockStartStyle?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderBlockStartWidth?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderBlockStyle?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderBlockWidth?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderBottomColor?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderBottomLeftRadius?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderBottomRightRadius?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderBottomStyle?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderBottomWidth?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderCollapse?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderEndEndRadius?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderEndStartRadius?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderImageOutset?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderImageRepeat?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderImageSlice?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderImageSource?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderImageWidth?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderInlineColor?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderInlineEndColor?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderInlineEndStyle?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderInlineEndWidth?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderInlineStartColor?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderInlineStartStyle?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderInlineStartWidth?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderInlineStyle?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderInlineWidth?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderLeftColor?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderLeftStyle?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderLeftWidth?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderRightColor?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderRightStyle?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderRightWidth?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderSpacing?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderStartEndRadius?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderStartStartRadius?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderTopColor?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderTopLeftRadius?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderTopRightRadius?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderTopStyle?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderTopWidth?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     bottom?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     boxDecorationBreak?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     boxShadow?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     boxSizing?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     breakAfter?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     breakBefore?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     breakInside?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     captionSide?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     caretColor?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     clear?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     clipPath?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     color?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     colorAdjust?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     columnCount?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     columnFill?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     columnGap?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     columnRuleColor?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     columnRuleStyle?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     columnRuleWidth?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     columnSpan?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     columnWidth?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     contain?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     content?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     counterIncrement?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     counterReset?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     counterSet?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     cursor?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     direction?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     display?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     emptyCells?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     filter?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     flexBasis?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     flexDirection?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     flexGrow?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     flexShrink?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     flexWrap?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     float?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     fontFamily?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     fontFeatureSettings?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     fontKerning?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     fontLanguageOverride?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     fontOpticalSizing?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     fontSize?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     fontSizeAdjust?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     fontStretch?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     fontStyle?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     fontSynthesis?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     fontVariant?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     fontVariantCaps?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     fontVariantEastAsian?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     fontVariantLigatures?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     fontVariantNumeric?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     fontVariantPosition?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     fontVariationSettings?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     fontWeight?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     gridAutoColumns?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     gridAutoFlow?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     gridAutoRows?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     gridColumnEnd?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     gridColumnStart?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     gridRowEnd?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     gridRowStart?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     gridTemplateAreas?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     gridTemplateColumns?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     gridTemplateRows?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     hangingPunctuation?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     height?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     hyphens?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     imageOrientation?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     imageRendering?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     imageResolution?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     initialLetter?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     inlineSize?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     inset?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     insetBlock?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     insetBlockEnd?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     insetBlockStart?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     insetInline?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     insetInlineEnd?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     insetInlineStart?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     isolation?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     justifyContent?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     justifyItems?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     justifySelf?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     left?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     letterSpacing?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     lineBreak?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     lineHeight?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     lineHeightStep?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     listStyleImage?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     listStylePosition?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     listStyleType?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     marginBlock?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     marginBlockEnd?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     marginBlockStart?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     marginBottom?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     marginInline?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     marginInlineEnd?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     marginInlineStart?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     marginLeft?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     marginRight?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     marginTop?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     maskBorderMode?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     maskBorderOutset?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     maskBorderRepeat?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     maskBorderSlice?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     maskBorderSource?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     maskBorderWidth?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     maskClip?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     maskComposite?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     maskImage?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     maskMode?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     maskOrigin?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     maskPosition?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     maskRepeat?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     maskSize?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     maskType?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     maxBlockSize?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     maxHeight?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     maxInlineSize?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     maxLines?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     maxWidth?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     minBlockSize?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     minHeight?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     minInlineSize?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     minWidth?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     mixBlendMode?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     motionDistance?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     motionPath?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     motionRotation?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     objectFit?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     objectPosition?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     offsetAnchor?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     offsetDistance?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     offsetPath?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     offsetRotate?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     offsetRotation?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     opacity?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     order?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     orphans?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     outlineColor?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     outlineOffset?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     outlineStyle?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     outlineWidth?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     overflowAnchor?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     overflowBlock?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     overflowClipBox?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     overflowInline?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     overflowWrap?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     overflowX?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     overflowY?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     overscrollBehavior?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     overscrollBehaviorBlock?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     overscrollBehaviorInline?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     overscrollBehaviorX?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     overscrollBehaviorY?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     paddingBlock?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     paddingBlockEnd?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     paddingBlockStart?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     paddingBottom?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     paddingInline?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     paddingInlineEnd?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     paddingInlineStart?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     paddingLeft?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     paddingRight?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     paddingTop?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     pageBreakAfter?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     pageBreakBefore?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     pageBreakInside?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     paintOrder?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     perspective?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     perspectiveOrigin?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     placeContent?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     pointerEvents?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     position?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     quotes?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     resize?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     right?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     rotate?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     rowGap?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     rubyAlign?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     rubyMerge?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     rubyPosition?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     scale?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     scrollBehavior?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     scrollMargin?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     scrollMarginBlock?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     scrollMarginBlockEnd?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     scrollMarginBlockStart?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     scrollMarginBottom?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     scrollMarginInline?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     scrollMarginInlineEnd?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     scrollMarginInlineStart?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     scrollMarginLeft?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     scrollMarginRight?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     scrollMarginTop?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     scrollPadding?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     scrollPaddingBlock?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     scrollPaddingBlockEnd?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     scrollPaddingBlockStart?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     scrollPaddingBottom?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     scrollPaddingInline?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     scrollPaddingInlineEnd?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     scrollPaddingInlineStart?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     scrollPaddingLeft?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     scrollPaddingRight?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     scrollPaddingTop?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     scrollSnapAlign?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     scrollSnapMargin?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     scrollSnapMarginBottom?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     scrollSnapMarginLeft?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     scrollSnapMarginRight?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     scrollSnapMarginTop?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     scrollSnapStop?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     scrollSnapType?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     scrollbarColor?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     scrollbarWidth?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     shapeImageThreshold?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     shapeMargin?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     shapeOutside?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     tabSize?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     tableLayout?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     textAlign?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     textAlignLast?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     textCombineUpright?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     textDecorationColor?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     textDecorationLine?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     textDecorationSkip?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     textDecorationSkipInk?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     textDecorationStyle?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     textDecorationThickness?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     textDecorationWidth?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     textEmphasisColor?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     textEmphasisPosition?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     textEmphasisStyle?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     textIndent?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     textJustify?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     textOrientation?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     textOverflow?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     textRendering?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     textShadow?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     textSizeAdjust?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     textTransform?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     textUnderlineOffset?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     textUnderlinePosition?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     top?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     touchAction?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     transform?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     transformBox?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     transformOrigin?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     transformStyle?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     transitionDelay?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     transitionDuration?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     transitionProperty?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     transitionTimingFunction?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     translate?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     unicodeBidi?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     userSelect?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     verticalAlign?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     visibility?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     whiteSpace?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     widows?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     width?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     willChange?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     wordBreak?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     wordSpacing?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     wordWrap?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     writingMode?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     zIndex?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     zoom?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     all?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     animation?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     background?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     border?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderBlock?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderBlockEnd?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderBlockStart?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderBottom?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderColor?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderImage?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderInline?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderInlineEnd?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderInlineStart?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderLeft?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderRadius?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderRight?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderStyle?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderTop?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     borderWidth?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     columnRule?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     columns?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     flex?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     flexFlow?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     font?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     gap?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     grid?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     gridArea?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     gridColumn?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     gridRow?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     gridTemplate?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     lineClamp?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     listStyle?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     margin?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     mask?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     maskBorder?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     motion?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     offset?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     outline?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     overflow?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     padding?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     placeItems?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     placeSelf?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     textDecoration?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     textEmphasis?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     transition?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozAnimationDelay?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozAnimationDirection?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozAnimationDuration?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozAnimationFillMode?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozAnimationIterationCount?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozAnimationName?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozAnimationPlayState?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozAnimationTimingFunction?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozAppearance?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozBackfaceVisibility?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozBorderEndColor?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozBorderEndStyle?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozBorderEndWidth?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozBorderStartColor?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozBorderStartStyle?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozBoxSizing?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozColumnCount?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozColumnFill?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozColumnGap?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozColumnRuleColor?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozColumnRuleStyle?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozColumnRuleWidth?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozColumnWidth?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozContextProperties?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozFloatEdge?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozFontFeatureSettings?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozFontLanguageOverride?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozForceBrokenImageIcon?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozHyphens?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozImageRegion?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozMarginEnd?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozMarginStart?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozOrient?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozOutlineRadiusBottomleft?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozOutlineRadiusBottomright?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozOutlineRadiusTopleft?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozOutlineRadiusTopright?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozPaddingEnd?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozPaddingStart?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozPerspective?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozPerspectiveOrigin?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozStackSizing?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozTabSize?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozTextSizeAdjust?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozTransformOrigin?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozTransformStyle?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozTransitionDelay?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozTransitionDuration?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozTransitionProperty?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozTransitionTimingFunction?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozUserFocus?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozUserModify?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozUserSelect?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozWindowDragging?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msAccelerator?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msAlignSelf?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msBlockProgression?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msContentZoomChaining?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msContentZoomLimitMax?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msContentZoomLimitMin?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msContentZoomSnapPoints?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msContentZoomSnapType?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msContentZooming?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msFilter?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msFlexDirection?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msFlexPositive?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msFlowFrom?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msFlowInto?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msGridColumns?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msGridRows?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msHighContrastAdjust?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msHyphenateLimitChars?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msHyphenateLimitLines?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msHyphenateLimitZone?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msHyphens?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msImeAlign?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msLineBreak?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msOrder?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msOverflowStyle?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msOverflowX?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msOverflowY?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msScrollChaining?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msScrollLimitXMax?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msScrollLimitXMin?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msScrollLimitYMax?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msScrollLimitYMin?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msScrollRails?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msScrollSnapPointsX?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msScrollSnapPointsY?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msScrollSnapType?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msScrollTranslation?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msScrollbar3dlightColor?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msScrollbarArrowColor?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msScrollbarBaseColor?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msScrollbarDarkshadowColor?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msScrollbarFaceColor?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msScrollbarHighlightColor?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msScrollbarShadowColor?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msTextAutospace?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msTextCombineHorizontal?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msTextOverflow?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msTouchAction?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msTouchSelect?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msTransform?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msTransformOrigin?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msTransitionDelay?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msTransitionDuration?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msTransitionProperty?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msTransitionTimingFunction?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msUserSelect?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msWordBreak?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msWrapFlow?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msWrapMargin?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msWrapThrough?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msWritingMode?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     OObjectFit?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     OObjectPosition?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     OTabSize?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     OTextOverflow?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     OTransformOrigin?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitAlignContent?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitAlignItems?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitAlignSelf?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitAnimationDelay?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitAnimationDirection?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitAnimationDuration?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitAnimationFillMode?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitAnimationIterationCount?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitAnimationName?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitAnimationPlayState?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitAnimationTimingFunction?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitAppearance?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitBackdropFilter?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitBackfaceVisibility?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitBackgroundClip?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitBackgroundOrigin?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitBackgroundSize?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitBorderBeforeColor?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitBorderBeforeStyle?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitBorderBeforeWidth?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitBorderBottomLeftRadius?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitBorderBottomRightRadius?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitBorderImageSlice?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitBorderTopLeftRadius?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitBorderTopRightRadius?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitBoxDecorationBreak?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitBoxReflect?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitBoxShadow?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitBoxSizing?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitClipPath?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitColorAdjust?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitColumnCount?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitColumnFill?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitColumnGap?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitColumnRuleColor?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitColumnRuleStyle?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitColumnRuleWidth?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitColumnSpan?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitColumnWidth?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitFilter?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitFlexBasis?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitFlexDirection?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitFlexGrow?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitFlexShrink?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitFlexWrap?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitFontFeatureSettings?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitFontKerning?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitFontVariantLigatures?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitHyphens?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitJustifyContent?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitLineBreak?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitLineClamp?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitMarginEnd?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitMarginStart?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitMaskAttachment?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitMaskClip?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitMaskComposite?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitMaskImage?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitMaskOrigin?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitMaskPosition?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitMaskPositionX?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitMaskPositionY?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitMaskRepeat?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitMaskRepeatX?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitMaskRepeatY?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitMaskSize?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitMaxInlineSize?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitOrder?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitOverflowScrolling?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitPaddingEnd?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitPaddingStart?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitPerspective?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitPerspectiveOrigin?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitScrollSnapType?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitShapeMargin?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitTapHighlightColor?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitTextCombine?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitTextDecorationColor?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitTextDecorationLine?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitTextDecorationSkip?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitTextDecorationStyle?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitTextEmphasisColor?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitTextEmphasisPosition?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitTextEmphasisStyle?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitTextFillColor?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitTextOrientation?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitTextSizeAdjust?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitTextStrokeColor?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitTextStrokeWidth?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitTouchCallout?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitTransform?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitTransformOrigin?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitTransformStyle?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitTransitionDelay?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitTransitionDuration?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitTransitionProperty?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitTransitionTimingFunction?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitUserModify?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitUserSelect?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitWritingMode?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkittextUnderlinePosition?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozAnimation?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozBorderImage?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozColumnRule?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozColumns?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozTransition?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msContentZoomLimit?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msContentZoomSnap?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msFlex?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msScrollLimit?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msScrollSnapX?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msScrollSnapY?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msTransition?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitAnimation?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitBorderBefore?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitBorderImage?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitBorderRadius?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitColumnRule?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitColumns?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitFlex?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitFlexFlow?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitMask?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitTextEmphasis?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitTextStroke?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitTransition?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     boxAlign?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     boxDirection?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     boxFlex?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     boxFlexGroup?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     boxLines?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     boxOrdinalGroup?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     boxOrient?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     boxPack?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     clip?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     fontVariantAlternates?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     gridColumnGap?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     gridGap?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     gridRowGap?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     imeMode?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     offsetBlock?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     offsetBlockEnd?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     offsetBlockStart?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     offsetInline?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     offsetInlineEnd?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     offsetInlineStart?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     scrollSnapCoordinate?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     scrollSnapDestination?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     scrollSnapPointsX?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     scrollSnapPointsY?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     scrollSnapTypeX?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     scrollSnapTypeY?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     scrollbarTrackColor?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     textCombineHorizontal?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     KhtmlBoxAlign?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     KhtmlBoxDirection?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     KhtmlBoxFlex?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     KhtmlBoxFlexGroup?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     KhtmlBoxLines?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     KhtmlBoxOrdinalGroup?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     KhtmlBoxOrient?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     KhtmlBoxPack?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     KhtmlLineBreak?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     KhtmlOpacity?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     KhtmlUserSelect?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozBackgroundClip?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozBackgroundInlinePolicy?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozBackgroundOrigin?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozBackgroundSize?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozBinding?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozBorderBottomColors?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozBorderLeftColors?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozBorderRadius?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozBorderRadiusBottomleft?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozBorderRadiusBottomright?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozBorderRadiusTopleft?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozBorderRadiusTopright?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozBorderRightColors?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozBorderTopColors?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozBoxAlign?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozBoxDirection?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozBoxFlex?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozBoxOrdinalGroup?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozBoxOrient?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozBoxPack?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozBoxShadow?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozOpacity?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozOutline?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozOutlineColor?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozOutlineRadius?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozOutlineStyle?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozOutlineWidth?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozTextAlignLast?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozTextBlink?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozTextDecorationColor?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozTextDecorationLine?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozTextDecorationStyle?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozUserInput?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     MozWindowShadow?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msImeMode?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     msScrollbarTrackColor?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     OAnimation?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     OAnimationDelay?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     OAnimationDirection?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     OAnimationDuration?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     OAnimationFillMode?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     OAnimationIterationCount?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     OAnimationName?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     OAnimationPlayState?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     OAnimationTimingFunction?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     OBackgroundSize?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     OBorderImage?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     OTransform?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     OTransition?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     OTransitionDelay?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     OTransitionDuration?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     OTransitionProperty?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     OTransitionTimingFunction?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitBoxAlign?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitBoxDirection?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitBoxFlex?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitBoxFlexGroup?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitBoxLines?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitBoxOrdinalGroup?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitBoxOrient?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitBoxPack?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitScrollSnapPointsX?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     WebkitScrollSnapPointsY?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     alignmentBaseline?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     baselineShift?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     clipRule?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     colorInterpolation?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     colorRendering?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     dominantBaseline?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     fill?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     fillOpacity?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     fillRule?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     floodColor?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     floodOpacity?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     glyphOrientationVertical?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     lightingColor?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     marker?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     markerEnd?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     markerMid?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     markerStart?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     shapeRendering?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     stopColor?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     stopOpacity?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     stroke?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     strokeDasharray?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     strokeDashoffset?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     strokeLinecap?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     strokeLinejoin?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     strokeMiterlimit?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     strokeOpacity?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     strokeWidth?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     textAnchor?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
     vectorEffect?: {
-        initial: string;
-        onHover: string;
+        initial: any;
+        onHover: any;
     } | undefined;
 }) => {
     spring: import("react-spring").AnimatedValue<Pick<{

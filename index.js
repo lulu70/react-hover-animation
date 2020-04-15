@@ -72,7 +72,7 @@ var useHover = function (props) {
 };
 
 var AnimationWrapper = function (_a) {
-    var children = _a.children, config = _a.config, style = _a.style, reset = _a.reset, props = __rest(_a, ["children", "config", "style", "reset"]);
+    var children = _a.children, config = _a.config, style = _a.style, reset = _a.reset, rest = __rest(_a, ["children", "config", "style", "reset"]);
     var hookConfig = reset
         ? __assign({ opacity: {
                 initial: '1',
@@ -82,7 +82,7 @@ var AnimationWrapper = function (_a) {
                 onHover: 'scale(1)',
             } }, config) : config;
     var _b = useHover(hookConfig), animated = _b.animated, setHover = _b.setHover, spring = _b.spring;
-    return (React.createElement(animated.div, __assign({}, props, { style: __assign(__assign({}, spring), style), onPointerOver: function () {
+    return (React.createElement(animated.div, __assign({}, rest, { style: __assign(__assign({}, spring), style), onPointerOver: function () {
             setHover(true);
         }, onPointerOut: function () {
             setHover(false);
