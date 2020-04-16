@@ -11,8 +11,16 @@
 
 ## Install
 
+### npm:
+
 ```bash
 npm install --save react-hover-animation
+```
+
+### yarn:
+
+```bash
+yarn add react-hover-animation
 ```
 
 ## Usage
@@ -47,6 +55,7 @@ In order to change the default behavior you can either pass the [reset](#reset) 
   - `initial`: The initial style.
   - `onHover`: The style on hover.
 - <span id="reset">`reset`</span>: A boolean that will reset the [default behavior](#default-behavior).
+- <span id="animation-config">`animaionConfig`</span>: Config for the animation, can be either a regular [react-spring-config-object](https://www.react-spring.io/docs/hooks/api/#configs) or a string with the name of one of the [react-spring-config-presets](https://www.react-spring.io/docs/hooks/api/#presets) (default, gentle, wobbly, stiff, slow, molasses).
 
 ### Usage with props
 
@@ -83,6 +92,18 @@ const App = () => {
       resets the default behavior  
       */
       reset={true}
+      /* 
+      animation config using an object 
+      */
+      animationConfig={{
+        duration: 500,
+      }}
+      /* 
+      animation config using a preset
+      */
+      /* 
+      animationConfig='molasses'
+      */
     >
       <h1>I animate on hover</h1>
     </AnimationWrapper>
@@ -94,7 +115,7 @@ export default App
 ### The useHover hook
 
 If you don't want to render a wrapper div you can also import a custom hook and apply the animation directly on the element.<br>
-Optional [config](#config) object can be passed as an argument to the hook.
+Optional config object can be passed as an argument to the hook with either styles or [animation config](#animation-config) object.
 
 ```jsx
 import React from 'react'
@@ -104,17 +125,27 @@ const App = () => {
   /* 
     first call the hook
   */
-  const { spring, animated, setHover } = useHover(
+  const { spring, animated, setHover } = useHover({
     /* 
     optional styles...
     */
-    {
-      color: {
-        initial: 'black',
-        onHover: 'red',
-      },
-    }
-  )
+    color: {
+      initial: 'black',
+      onHover: 'red',
+    },
+    /* 
+    animation config using an object 
+    */
+    animationConfig: {
+      duration: 500,
+    },
+    /* 
+    animation config using a preset
+    */
+    /* 
+    animationConfig: 'molasses',
+    */
+  })
   return (
     /* 
     add 'animated' to the element

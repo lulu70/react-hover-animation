@@ -1,9 +1,10 @@
 import * as React from 'react'
-import useHover from './useHover'
+import useHover, { SpringConfig, ConfigPresets } from './useHover'
 
 const AnimationWrapper: React.FC<{
   reset?: boolean
   style?: React.CSSProperties | undefined
+  animationConfig?: SpringConfig | keyof ConfigPresets
   config?: {
     [key in keyof React.CSSProperties]?: {
       initial: any
@@ -11,7 +12,14 @@ const AnimationWrapper: React.FC<{
     }
   }
   [x: string]: any
-}> = ({ children, config, style, reset, ...rest }) => {
+}> = ({ children, config, style, reset, animationConfig, ...rest }) => {
+  const passedConfig = {
+    ...config,
+    animationConfig:
+      typeof animationConfig === 'string'
+        ? animationConfig
+        : { ...animationConfig },
+  }
   const hookConfig = reset
     ? {
         opacity: {
@@ -22,9 +30,9 @@ const AnimationWrapper: React.FC<{
           initial: 'scale(1)',
           onHover: 'scale(1)',
         },
-        ...config,
+        ...passedConfig,
       }
-    : config
+    : passedConfig
   const { animated, setHover, spring } = useHover(hookConfig)
   return (
     <animated.div
