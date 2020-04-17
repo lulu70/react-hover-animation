@@ -43,15 +43,15 @@ export default App
 
 ### Default behavior
 
-The wrapper component comes with a build in behavior on hover,
-animation will play and change the element opacity from _1_ to _0.6_ and change the element scale from _1_ to _0.95_.<br>
-In order to change the default behavior you can either pass the [reset](#reset) prop to reset these defaults or pass a [config](#config) object with styles for _initial_ and _onHover_ state.
+The wrapper component comes with a build-in behavior on hover,
+Animation will play and change the element opacity from _1_ to _0.6_ and change the element scale from _1_ to _0.95_.<br>
+In order to change the default behavior, you can either pass the [reset](#reset) prop to reset these defaults or pass a [config](#config) object with styles for _initial_ and _onHover_ state.
 
 ### Optional props
 
-- `style`: A style object for the wrapper component - **styles will override the hover styles on config object**.
+- `style`: A style object for the wrapper component - **styles will override the hover styles on the config object**.
 - <span id="config">`config`</span>: A config object to declare more styles to change on hover or overrides the [default behavior](#default-behavior),<br>
-  **must provide to each css property two values of the same type(initial and onHover)**.
+  **must provide to each CSS property two values of the same type(initial and onHover)**.
   - `initial`: The initial style.
   - `onHover`: The style on hover.
 - <span id="reset">`reset`</span>: A boolean that will reset the [default behavior](#default-behavior).
