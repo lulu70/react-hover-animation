@@ -1,6 +1,6 @@
 {
   "name": "react-hover-animation",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "A react wrapper component that detects hover and adds animation from the awesome react-spring.Works both on the web and mobile touch events.",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
